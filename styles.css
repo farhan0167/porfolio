@@ -164,6 +164,7 @@ html, body{
 }
 .container-projects{
   display: flex;
+  padding: 40px;
 }
 .card{
   margin: 20px;
