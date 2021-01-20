@@ -110,6 +110,9 @@ html, body{
   background-color: white;
   margin-top: 15px;
 }
+.my-img,.about-me{
+  margin-bottom: 100px;
+}
 .my-img{
   width: 500px;
   height: 90vh;
