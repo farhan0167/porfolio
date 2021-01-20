@@ -8,7 +8,7 @@ html, body{
   margin: 0px;
   width: 100vw;
   height: 100vh;
-  background-color: #F2C230;
+  background-color: #FFC030;
 }
 .collage2-img{
   filter: blur(3px);
@@ -168,6 +168,7 @@ html, body{
 .card{
   margin: 20px;
   font-family: Arial;
+  box-shadow: 8px 5px 12px #FFA227;
 }
 .card-title{
   font-size: 20px;
