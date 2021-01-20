@@ -40,7 +40,7 @@ html, body{
   margin-bottom: 0;
 }
 #main-img{
-  height: 101vh;
+  height: 100vh;
   width:  50vw;
   margin-right: 6px;
   margin-top: 2px;
@@ -108,7 +108,7 @@ html, body{
 .container-about-me{
   display: flex;
   background-color: white;
-  margin-top: 15px;
+
 }
 .my-img,.about-me{
   margin-bottom: 100px;
