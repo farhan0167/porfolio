@@ -10,6 +10,9 @@ html, body{
   height: 100vh;
   background-color: #FFC030;
 }
+.navbar-nav a{
+  margin-left: 20px;
+}
 
 .collage2-img{
   filter: blur(4px);
@@ -52,11 +55,33 @@ html, body{
   color: #F2C230;
   font-size: 100px;
   font-weight: bolder;
-  font-family: Arial;
+  font-family: Consolas, monaco, monospace;
   letter-spacing: 15px;
   margin: 0;
   padding: 0;
 }
+.intro:nth-of-type(1){
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .13em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 4s steps(20, end) infinite,
+    blink-caret .80s step-end infinite;
+}
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
 
 .intro:nth-of-type(2){
   position: absolute;
@@ -135,6 +160,17 @@ html, body{
   font-family: Arial;
   letter-spacing: 1px;
 }
+.social{
+  display: flex;
+  justify-content: flex-end;
+  border-top: 2px solid black;
+  border-color: #FFC030;
+}
+.social-svg{
+  width: 40px;
+  height:40px;
+  margin: 20px;
+}
 @media screen and (max-width:1100px){
   .container-about-me{
     flex-direction: column;
@@ -149,11 +185,14 @@ html, body{
 .containerthird{
   padding-top: 100px;
   padding-bottom: 100px;
-  height: 100vh;
+
 }
 .container-projects{
   display: flex;
   padding: 40px;
+}
+.nav-tabs{
+  margin: 60px;
 }
 .card{
   margin: 20px;
@@ -169,6 +208,7 @@ html, body{
 }
 .card-img{
   filter: blur(1px);
+  height: 250px;
 }
 .projects-header{
   font-size: 80px;
@@ -181,5 +221,84 @@ html, body{
   .container-projects{
     flex-direction: column;
   }
+  .card-img{
+
+
+  }
+
 }
 /*Styles for academics start here */
+.containerfourth{
+  background-image:url("imgs/baruch.jp2");
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.academic-content{
+  padding: 50px;
+  background-color: white;
+  opacity: 88%;
+}
+.academic-content>hr:nth-of-type(1){
+  border: 1px solid black;
+}
+.academics-header{
+  font-size: 80px;
+  font-weight: bold;
+  color: black;
+}
+.academics-college{
+  font-size: 60px;
+  font-weight: bolder;
+  color: #111E6C;
+}
+.academic-year{
+  font-style: italic;
+  font-family: Georgia, Times New Roman, Times, serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.academic-texts{
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 1100px){
+  .academics-header{
+    font-size: 60px;
+  }
+  .academic-texts{
+    font-size: 10px;
+  }
+  .academics-college{
+    font-size: 40px;
+  }
+}
+/*Styles for academics end here */
+
+/*Styles for contact start here */
+.containerfifth{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff2d6;
+  padding: 40px;
+}
+.contact-header{
+  font-size: 80px;
+  font-weight: bolder;
+  text-align: center;
+  color: #FFC030;
+  white-space: nowrap;
+
+}
+.contact-me{
+  margin-left: 40px;
+}
+#form-google{
+  width: 100%;
+}
