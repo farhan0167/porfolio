@@ -185,6 +185,10 @@ html, body{
 .containerthird{
   padding-top: 100px;
   padding-bottom: 100px;
+  background-image: url("imgs/art2.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 
 }
 .container-projects{
@@ -195,9 +199,11 @@ html, body{
   margin: 60px;
 }
 .card{
-  margin: 20px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 80px;
   font-family: Arial;
-  box-shadow: 8px 5px 12px #FFA227;
 }
 .card-body{
   background-color: #F2F2F2; /* gray body*/
@@ -214,7 +220,7 @@ html, body{
   font-size: 80px;
   font-weight: bold;
   text-align: center;
-  color: white;
+  color: #230A59;
 
 }
 @media screen and (max-width:1100px){
@@ -286,13 +292,16 @@ html, body{
   display: flex;
   flex-direction: column;
   background-color: #fff2d6;
+  background-image: url("imgs/art.svg");
+  background-position: center;
+  background-attachment: fixed;
   padding: 40px;
 }
 .contact-header{
   font-size: 80px;
   font-weight: bolder;
   text-align: center;
-  color: #FFC030;
+  color: #230A59;
   white-space: nowrap;
 
 }
