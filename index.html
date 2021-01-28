@@ -3,15 +3,14 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Ahmad Farhan Ishraq</title>
+    <title>Farhan's Portfolio</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="icon" href="imgs/icon6.svg" sizes="150x150">
   </head>
   <body>
-    <script type="text/javascript">
-      window.alert("This page is still under construction. Things are subject to change, so bear with me. Please leave your feedback if there is something I should connsider.");
-    </script>
+
     <!-- The first container: Collage -->
     <div class="container-collage">
       <div class="row-main">
@@ -29,6 +28,9 @@
 
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="imgs/icon.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+      </a>
       <div id="nav-bar" class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -70,7 +72,8 @@
     <!-- The third container: Projects -->
     <div id="containerthird" class="containerthird">
       <p class="projects-header">PROJECTS</p>
-      <!-- Tabs -->
+      <hr>
+      <!-- Tabs
       <ul class="nav nav-tabs justify-content-center">
         <li class="nav-item">
           <a id="feature"class="nav-link active" aria-current="page">Featured</a>
@@ -81,7 +84,7 @@
         <li class="nav-item">
           <a class="nav-link active" href="#">Bootcamp</a>
         </li>
-      </ul>
+      </ul> commented out until further updates-->
       <div class="container-projects">
 
         <div class="card-group">
@@ -103,10 +106,98 @@
         <p class="academic-texts">Major: Computer Information System | Minor: Mathematics</p>
         <hr>
 
-      </div>
+        <div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn edu-btn collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <p>Relevant Courses</p>
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body body-struct-rc">
+
+              <p>CIS Courses</p>
+              <ul>
+                <li>CIS4160- Web Applications Development</li>
+                <li>CIS3400- Database Management Systems</li>
+                <li>CIS4100- Advance Object Oriented Programming in C++(Datastructures and Algorithms)</li>
+                <li>STA3000- Statistical Computing in R</li>
+                <li>CIS3920- Data Mining and Business Analytics</li>
+              </ul>
+              <p>Math Courses</p>
+              <ul>
+                <li>MTH4100- Linear ALgebra</li>
+                <li>MTH4320- Fundamental Algorithms</li>
+                <li>MTH3006- Integral Calculus</li>
+                <li>STA3154- Probability Theory</li>
+              </ul>
 
 
-    </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn edu-btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <p>Experience</p>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body body-struct-e">
+              <p class="body-struct-e-header">Office of Student Life- Baruch College | Part-Time</p>
+              <p class="body-struct-e-position">Position: Student Assistant</p>
+              <ul>
+                <li>Assisted office staff in activities from answering phone calls, directing students to clubs and organizations throughout Baruch College</li>
+                <li>Took initiative to run the office front without supervision</li>
+              </ul>
+              <p class="body-struct-e-header">TechTogether Boston 2020</p>
+              <p class="body-struct-e-position">Position: Mentor</p>
+              <ul>
+                <li>Mentored participants in brainstorming their project ideas and guided them on making a successful plan</li>
+                <li>Assisted participants with Python related queries, focusing on Data-Mining and REST API</li>
+                <li>Was selected as a judge for evaluating participants for the general round</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn edu-btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <p>Leadership</p>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              <p class="body-struct-l-header">International Student Organization</p>
+              <p class="body-struct-l-position">Title: President (2020-21)</p>
+              <ul>
+                <li>Leading the organization and fostering a sense of community during the virtual semester, by connecting international students with domestic students through cultural exchange and professional events</li>
+                <li>Coordinated efforts to raise $542 for Relay for Life by raising awareness of cancer during our annual Thanksgiving Dinner event</li>
+                <li>Initiated an Ad-Hoc Committee representing international students at Baruch College in the Undergraduate Student Government</li>
+                <li>Overseeing and directing funds for the club from a budget of $9,000.00, and private funds</li>
+              </ul>
+              <p class="body-struct-l-position">Title: Chair of Events (2019-20)</p>
+              <ul>
+                <li>In charge of coordinating and setting up small to large scale events for the club throughout the semester</li>
+                <li>Leading a team of 10 people with the planning and coordination of events</li>
+                <li>Allocated funds from the club's budget for all events and documented spending proposals in conjunction with the Treasurer</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> <!--End of the bootstrap collapse -->
+
+    </div> <!-- End of academic Content -->
+
+
+  </div> <!-- End of Containerfifth-->
     <div id="containerfifth" class="containerfifth">
       <p class="contact-header">REACH OUT</p>
       <div class="contact-me">
@@ -115,9 +206,8 @@
 
     </div>
 
-  <script type="text/javascript" src="index.js">
-
-  </script>
+  <script type="text/javascript" src="projects.js"></script>
+  <script type="text/javascript" src="education.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>

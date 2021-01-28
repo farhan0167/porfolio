@@ -10,6 +10,9 @@ html, body{
   height: 100vh;
   background-color: #FFC030;
 }
+.navbar-brand{
+  margin-left: 20px;
+}
 .navbar-nav a{
   margin-left: 20px;
 }
@@ -192,7 +195,7 @@ html, body{
 
 }
 .container-projects{
-  padding: 40px;
+  padding: 50px;
 }
 .nav-item{
   margin-left: 10px;
@@ -204,12 +207,25 @@ html, body{
 #feature{
   cursor: pointer;
 }
-.card{
+.project-card{
   margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
   margin-bottom: 80px;
   font-family: Arial;
+}
+#card-header-color0{
+  background-color:#E4381D;
+  filter: opacity(80%);
+
+}
+#card-header-color1{
+  background-color:#968B88;
+  filter: opacity(80%);
+}
+#card-header-color2{
+  background-color:#03115A;
+  filter: opacity(80%);
 }
 .card-body{
   background-color: #F2F2F2; /* gray body*/
@@ -229,8 +245,32 @@ html, body{
   color: #230A59;
 
 }
-.btn{
+.project-card-btn{
   width: 100%;
+}
+.viewcode{
+  width: 100%;
+}
+#takeaway{
+  font-size: 14px;
+}
+.modal-header{
+  background-color: #202020;
+}
+.modal-body{
+  background-color: #F2F2F2;
+}
+.modal-text{
+  font-weight: 500;
+  color: #1D101B;
+  letter-spacing: 1px;
+}
+#exampleModalLabel{
+  font-weight: bolder;
+  color: white;
+}
+.modal-body>div>h4{
+  font-weight: bold;
 }
 
 /*Styles for academics start here */
@@ -274,6 +314,43 @@ html, body{
   font-weight: bolder;
   letter-spacing: 2px;
 }
+.edu-btn{
+  width: 100%;
+}
+.edu-btn p{
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  padding: 0;
+  text-align: left;
+}
+.body-struct-rc p{
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.body-struct-rc>ul>li{
+  font-size: 20px;
+}
+.body-struct-e-header{
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.body-struct-e-position{
+  font-size: 15px;
+  font-weight: 600;
+}
+.body-struct-l-header{
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.body-struct-l-position{
+  font-size: 15px;
+  font-weight: 600;
+}
+
 @media screen and (max-width: 1100px){
   .academics-header{
     font-size: 60px;
