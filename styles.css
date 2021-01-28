@@ -317,9 +317,13 @@ html, body{
   font-weight: bolder;
   letter-spacing: 2px;
 }
+.academic-content>hr:nth-of-type(2){
+  margin-bottom: 40px;
+}
 .edu-btn{
   width: 100%;
 }
+
 .edu-btn p{
   font-size: 18px;
   font-weight: 800;
@@ -328,13 +332,11 @@ html, body{
   text-align: left;
 }
 .body-struct-rc p{
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 700;
   letter-spacing: 2px;
 }
-.body-struct-rc>ul>li{
-  font-size: 20px;
-}
+
 .body-struct-e-header{
   font-size: 18px;
   font-weight: 700;
