@@ -11,7 +11,7 @@ html, body{
   background-color: #FFC030;
 }
 .navbar-brand{
-  margin-left: 20px;
+  margin-left: 40px;
 }
 .navbar-nav a{
   margin-left: 20px;
@@ -244,6 +244,9 @@ html, body{
   text-align: center;
   color: #230A59;
 
+}
+.btn-mdl{
+  width: 100%;
 }
 .project-card-btn{
   width: 100%;
