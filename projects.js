@@ -95,8 +95,8 @@ for (var i = 0; i < 3; i++) {
     '</div>' + //end of div started on line 72.
     '</div>' + //end of div started on line 64.
     '<div class="modal-footer">' +
-    "<a target='_blank' class='viewcode' href= '" + projectCard.location[i] + "'><button type='button' class='btn btn-warning'>View Code</button></a>"+
-    '<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>'+
+    "<a target='_blank' class='viewcode' href= '" + projectCard.location[i] + "'><button type='button' class='btn btn-warning btn-mdl'>View Code</button></a>"+
+    '<button type="button" class="btn btn-danger btn-mdl" data-dismiss="modal">Close</button>'+
     '</div>'+
     '</div>'+
     '</div>' +
