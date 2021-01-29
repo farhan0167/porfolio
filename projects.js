@@ -79,7 +79,7 @@ for (var i = 0; i < 3; i++) {
     "<p class='card-text'>" + projectCard.description[i] + "</p>" +
     "<button type='button' class='btn btn-primary project-card-btn' data-toggle='modal' data-target='#exampleModalLong" + i + "'>Read More</button>" +
     "<div class='modal fade' id='exampleModalLong" + i + "' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>"+ //start of modal
-    " <div class='modal-dialog' role='document'>" +
+    " <div class='modal-dialog modal-lg' role='document'>" +
     "<div class='modal-content'>"+
     "<div class='modal-header'>"+
     "<h3 class='modal-title' id='exampleModalLabel'>"+projectCard.title[i]+"</h3>"+

@@ -16,6 +16,9 @@ html, body{
 .navbar-nav a{
   margin-left: 20px;
 }
+.nav-link:nth-of-type(5){
+  margin-right: 10px;
+}
 
 .collage2-img{
   filter: blur(4px);
@@ -104,7 +107,11 @@ html, body{
   .col-collage2{
     display: none;
   }
+  .container-collage{
+    height:80vh;
+  }
   #main-img{
+    height: 80vh;
     width: 100%;
   }
   .intro{
@@ -169,6 +176,12 @@ html, body{
   border-top: 2px solid black;
   border-color: #FFC030;
 }
+.social-text{
+  margin-top: 30px;
+  margin-right: 40px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
 .social-svg{
   width: 40px;
   height:40px;
@@ -179,6 +192,7 @@ html, body{
     flex-direction: column;
   }
   .my-img{
+    height: 50vh;
     width: 100%;
   }
 }
@@ -194,6 +208,7 @@ html, body{
   background-attachment: fixed;
 
 }
+
 .container-projects{
   padding: 50px;
 }
@@ -207,6 +222,7 @@ html, body{
 #feature{
   cursor: pointer;
 }
+
 .project-card{
   margin-top: 20px;
   margin-left: 40px;
@@ -274,6 +290,13 @@ html, body{
 }
 .modal-body>div>h4{
   font-weight: bold;
+}
+
+@media screen and (max-width: 1100px){
+  .containerthird{
+
+    background-attachment: scroll;
+  }
 }
 
 /*Styles for academics start here */
@@ -366,6 +389,11 @@ html, body{
   .academics-college{
     font-size: 40px;
   }
+  .containerfourth{
+
+    background-attachment: scroll;
+
+  }
 }
 /*Styles for academics end here */
 
@@ -392,4 +420,14 @@ html, body{
 }
 #form-google{
   width: 100%;
+}
+
+footer{
+  background-color: #F2F2F2;
+  height: 50px;
+}
+footer p{
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
 }
