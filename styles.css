@@ -215,6 +215,9 @@ html, body{
     height: 50vh;
     width: 100%;
   }
+  .about-me-intro{
+    font-size: 30px;
+  }
 }
 /*Styles for About Me Container ends here*/
 
