@@ -125,6 +125,7 @@ html, body{
     left: 25%;
     transform: translate(-25%, -25%);
   }
+
 }
 /* Styles for the picture collage end */
 
@@ -384,7 +385,7 @@ html, body{
     font-size: 60px;
   }
   .academic-texts{
-    font-size: 10px;
+    font-size: 15px;
   }
   .academics-college{
     font-size: 40px;
@@ -393,6 +394,26 @@ html, body{
 
     background-attachment: scroll;
 
+  }
+  .body-struct-rc{
+    font-size: 30px;
+  }
+  .body-struct-e-header{
+    font-size: 28px;
+  }
+  .body-struct-e-position{
+    font-size: 22px;
+  }
+  .body-struct-l-header{
+    font-size: 30px;}
+  .body-struct-l-position{
+    font-size: 22px;
+  }
+  .body-struct-e>ul>li{
+    font-size: 22px;
+  }
+  .body-struct-l>ul>li{
+    font-size: 22px;
   }
 }
 /*Styles for academics end here */
