@@ -125,19 +125,21 @@ html, body{
     display: none;
   }
   .container-collage{
-    height:80vh;
+    height: 60vh;
   }
   #main-img{
-    height: 80vh;
+    height: 60vh;
     width: 100%;
   }
   .intro{
+    top: 20%;
     font-size: 150px;
     left: 25%;
     text-align: center;
     transform: translate(-25%, -25%);
   }
   .intro:nth-of-type(2){
+    top: 30%;
     font-size: 28px;
     left: 25%;
     transform: translate(-25%, -25%);
