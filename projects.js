@@ -122,7 +122,7 @@ for (var i = 0; i < 3; i++) {
 
 
 $(document).ready(function(){
-  $(".card-group").append(temp);
+  $(".card-deck").append(temp);
   $("#feature").click(function(){
     alert("hello");//change this when you work there
   });
