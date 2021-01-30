@@ -334,6 +334,12 @@ html, body{
   .projects-header{
     font-size: 90px;
   }
+  .card-title{
+    font-size: 40px;
+  }
+  .card-text{
+    font-size: 25px;
+  }
 }
 
 
