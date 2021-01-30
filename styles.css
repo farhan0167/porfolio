@@ -53,7 +53,10 @@ html, body{
   .navbar-toggler-icon, .navbar-toggler{
     height: 100px;
     width: 150px;
+    margin-right: 50px;
   }
+
+
 }
 
 /* Styles for the picture collage follow below: */
