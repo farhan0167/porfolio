@@ -1,4 +1,6 @@
-
+html {
+  scroll-behavior: smooth;
+}
 
 
 html, body{
@@ -176,7 +178,9 @@ html, body{
 .about-me-tag{
   font-size: 100px;
   font-weight: 900;
-  letter-spacing: 10px;
+  letter-spacing: 2px;
+  font-kerning: auto;
+  opacity: 70%;
   color: #F2C230;
   font-family: Helvetica;
 }
