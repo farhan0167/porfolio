@@ -8,4 +8,4 @@ Welcome to my first digital portfolio that I designed from scratch. This reposit
 
 ---
 
-To view the website, go to my [website](www.ahmadfarhanishraq.com).
+To view the website, go to my [website](https://www.ahmadfarhanishraq.com).
