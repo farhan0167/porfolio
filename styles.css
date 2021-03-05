@@ -27,7 +27,7 @@ html, body{
 .collage2-img{
   filter: blur(4px);
   height: 100vh;
-  width: 50vw;
+  width: 100%;
 }
 .collage2-img:hover{
   filter: blur(0);
@@ -87,27 +87,7 @@ html, body{
   margin: 0;
   padding: 0;
 }
-.intro:nth-of-type(1){
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .13em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation:
-    typing 4s steps(20, end) infinite,
-    blink-caret .80s step-end infinite;
-}
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
 
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
 
 
 .intro:nth-of-type(2){
@@ -253,7 +233,7 @@ html, body{
   cursor: pointer;
 }
 .card-deck{
-  padding: 40px;
+  padding: 20px;
 }
 .card-deck{
   display: flex;
