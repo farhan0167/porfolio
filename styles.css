@@ -56,6 +56,7 @@ html, body{
 }
 
 /* Styles for the picture collage follow below: */
+
 .row-main{
   display: flex;
   height: 100vh;
@@ -290,10 +291,14 @@ html, body{
   font-size: 14px;
 }
 .modal-header{
-  background-color: #202020;
+  background-color: white;
 }
+#exampleModalLabel{
+  color: black;
+}
+
 .modal-body{
-  background-color: #F2F2F2;
+  background-color: white;
 }
 .modal-text{
   font-weight: 500;
@@ -302,7 +307,7 @@ html, body{
 }
 #exampleModalLabel{
   font-weight: bolder;
-  color: white;
+  color: black;
 }
 .modal-body>div>h4{
   font-weight: bold;
